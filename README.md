@@ -18,8 +18,8 @@
 
 **如果要在你的项目上使用：**
 
-2. 执行`pip install wenxin -i https://pypi.org/simple/`
-3. 使用以下代码：
+1. 执行`pip install wenxin -i https://pypi.org/simple/`
+2. 使用以下代码：
 ```
 from wenxin.wenxin import WenXinBot
 from wenxin.wenxin import WenxinRevError
