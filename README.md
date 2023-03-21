@@ -14,8 +14,7 @@
 
 **如果要在你的项目上使用：**
 
-1. 克隆此仓库（未来将会上传到pypi），将src/wenxin文件夹复制至你的项目上
-2. 执行`pip install -r requirements.txt`
+2. 执行`pip install wenxin -i https://pypi.org/simple/`
 3. 使用以下代码：
 ```
 from wenxin.wenxin import WenXinBot
