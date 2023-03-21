@@ -1,4 +1,8 @@
+
 # ERNIEBot
+
+[![PyPi](https://img.shields.io/pypi/v/wenxin.svg)](https://pypi.python.org/pypi/wenxin)
+[![Support_Platform](https://img.shields.io/pypi/pyversions/wenxin)](https://pypi.python.org/pypi/wenxin)
 
 
 在Python上使用文心一言。可拓展为各种聊天机器人。
