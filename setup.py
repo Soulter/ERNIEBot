@@ -27,7 +27,7 @@ setup(
         "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
         "Intended Audience :: Developers",
         "Intended Audience :: End Users/Desktop",
-        "Natural Language :: Chinese",
+        "Natural Language :: English",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Programming Language :: Python :: 3 :: Only",
         "Programming Language :: Python :: 3.9",
