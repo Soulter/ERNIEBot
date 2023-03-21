@@ -21,7 +21,8 @@
 1. 执行`pip install wenxin -i https://pypi.org/simple/`
 1. 【已发现的问题】需要在你的项目根目录上加上/src/wenxin文件夹，然后将本项目src/wenxin/browsermob-proxy-2.1.4文件夹和chromedriver.exe复制到/src/wenxin中
 2. 使用以下代码：
-```
+
+```python
 from wenxin.wenxin import WenXinBot
 from wenxin.wenxin import WenxinRevError
 
@@ -37,7 +38,7 @@ print(res)
 
 wx = WenXinBot()需要传入一个cookie参数，获取方法如下：
 
-1. 使用一个获得资格的账号登录https://yiyan.baidu.com/，然后打开F12，找到如图所示的请求，右键另存为HAR
+1. 使用一个获得资格的账号登录https://yiyan.baidu.com/ ，然后打开F12，找到如图所示的请求，右键另存为HAR
 
 ![image](https://user-images.githubusercontent.com/37870767/226515651-e7712406-a764-4c73-87b9-6b2b71bb9504.png)
 
