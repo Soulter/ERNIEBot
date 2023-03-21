@@ -37,3 +37,14 @@ print(res)
 
 wx = WenXinBot()需要传入一个cookie参数，获取方法如下：
 
+1. 使用一个获得资格的账号登录https://yiyan.baidu.com/，然后打开F12，找到如图所示的请求，右键另存为HAR
+
+![image](https://user-images.githubusercontent.com/37870767/226515651-e7712406-a764-4c73-87b9-6b2b71bb9504.png)
+
+2. 找到cookies，如下图所示，然后复制列表放到代码上。然后使用文本替换工具将`true`替换为`True`，`false`替换为False
+
+![image](https://user-images.githubusercontent.com/37870767/226515947-53523ea2-ede4-4d42-9e87-7227a3446a52.png)
+
+3. 替换文本完成后，得到的列表就是wx = WenXinBot()要传入的参数了。
+
+
