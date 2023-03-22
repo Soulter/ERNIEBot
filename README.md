@@ -19,7 +19,7 @@
 **如果要在你的项目上使用：**
 
 1. 执行`pip install wenxin -i https://pypi.org/simple/`
-1. 【已发现的问题】需要在你的项目根目录上加上/src/wenxin文件夹，然后将本项目src/wenxin/browsermob-proxy-2.1.4文件夹和chromedriver.exe复制到/src/wenxin中
+1. 【已发现的问题】需要在你的项目根目录上加上/wenxin文件夹，然后将本项目src/wenxin/browsermob-proxy-2.1.4文件夹和chromedriver.exe复制到/wenxin中
 2. 使用以下代码：
 
 ```python
