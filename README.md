@@ -7,6 +7,10 @@
 
 在Python上使用文心一言。可拓展为各种聊天机器人。
 
+【已发现的问题】使用时，需要在你的项目根目录上加上/wenxin文件夹，然后将本项目src/wenxin/browsermob-proxy-2.1.4文件夹和chromedriver.exe复制到/wenxin中
+
+【已发现的问题】请使用pypi wenxin库的1.1.4版本。
+
 > 欢迎提交Pull Request或者Issues来改进此项目
 > Make a pull request to improve this project
 
@@ -15,8 +19,6 @@
 - [x] 使用Selenium和Browsermob-Proxy来与文心一言模拟交互
 
 # 使用 / Get Start
-
-**如果要在你的项目上使用：**
 
 1. 执行`pip install wenxin -i https://pypi.org/simple/`
 1. 【已发现的问题】需要在你的项目根目录上加上/wenxin文件夹，然后将本项目src/wenxin/browsermob-proxy-2.1.4文件夹和chromedriver.exe复制到/wenxin中
