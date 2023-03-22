@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name="Wenxin",
-    version="1.0",
+    version="1.1.4",
     description="a reverse engineering of ERNIEBot",
     long_description=open("README.md", "rt", encoding="utf-8").read(),
     long_description_content_type="text/markdown",

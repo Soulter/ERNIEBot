@@ -105,6 +105,13 @@ class WenXinBot:
             options.add_argument('log-level=3')
             # options.binary_location = '98.0.4758.102_chrome_installer.exe'
             self.driver = webdriver.Chrome(executable_path='chromedriver.exe', options=options)
+            self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+            "source": """
+                Object.defineProperty(navigator, 'webdriver', {
+                get: () => undefined
+                })
+            """
+            })
             self.driver.get(url)
             time.sleep(5)
             self.driver.delete_all_cookies()
